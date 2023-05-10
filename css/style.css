@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }    
 
-.container > * {
+.container{
     max-width: 1200px;
     margin:0 auto;
 }
@@ -36,18 +36,26 @@ body{
 /*
       HEADER NAV
 */
-.container-logo{
+header .container-logo{
     background-color: #ADD8E6;
-    height: 70px;
-    padding: 20px;
 
 }      
 
+header .container-logo{
+      padding: 10px 0;
+
+}
+.img-logo-discord{
+    background-size: contain;
+}
+
+ul{
+    list-style-type: none;
+}
 .div-nav{
-    background-color: #DAA520;
-    height: 30px;
-    width: 70%;
+    background-color: #DAA520;    
     display:flex;
+    flex-wrap: wrap;
 }
 
 .nav-small{
