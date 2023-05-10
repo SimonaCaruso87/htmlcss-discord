@@ -38,10 +38,9 @@ body{
 */
 .container-logo{
     background-color: #ADD8E6;
-    display: flex;
     height: 70px;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
+
 }      
 
 .div-nav{
@@ -72,7 +71,7 @@ body{
        padding-top: 5px;
 }
 /*
-      HEADER BACKGROUND PINK
+      HEADER
 */
 .container-background{
     background-color:#00008B;
